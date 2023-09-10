@@ -2,7 +2,7 @@
 
 const Head = () => {
   return (
-    <div className="bg-green-200">head</div>
+    <div> head</div>
   )
 }
 

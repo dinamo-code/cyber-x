@@ -17,7 +17,7 @@ function App() {
         <Contact />
         <Sponsored />
         </div>
-        <div>
+        <div className="footer">
         <Footer />
         </div>
     </div>
