@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Josefin+Sans:wght@600&family=Open+Sans:wght@400;600;700;800&family=REM:wght@200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&family=Ubuntu:wght@700&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Josefin+Sans:wght@600&family=Open+Sans:wght@400;600;700;800&family=REM:wght@200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&family=Teko:wght@300;400;500;600;700&family=Ubuntu:wght@700&family=Work+Sans:wght@200;300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Josefin+Sans:wght@600&family=Open+Sans:wght@400;600;700;800&family=REM:wght@200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&family=Russo+One&family=Teko:wght@300;400;500;600;700&family=Ubuntu:wght@700&family=Work+Sans:wght@200;300;400;500;700;800&display=swap');
+/* font-family: 'Russo One',sans-serif; */
+/* font-family: 'Viga', sans-serif; */
+:root {
+    font-family: 'Teko', sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    background-color: #000212;
+    color: aliceblue;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.main {
+    height: 815px;
+    background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(120, 119, 198, 0.2), hsla(0, 0%, 100%, 0));
+}
