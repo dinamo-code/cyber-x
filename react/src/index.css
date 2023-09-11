@@ -26,5 +26,5 @@
 }
 .main {
     height: 815px;
-    background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(120, 119, 198, 0.2), hsla(0, 0%, 100%, 0));
+    background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(120, 119, 198, 0.3), hsla(0, 0%, 100%, 0));
 }
