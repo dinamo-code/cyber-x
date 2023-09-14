@@ -2,7 +2,26 @@
 
 const Head = () => {
   return (
-    <div> head</div>
+    <div id="mainhead">
+      <div id="logo">
+
+      </div>
+      <div id="links">
+
+      </div>
+      <div id="search">
+
+      </div>
+      <div id="shopcart">
+
+      </div>
+      <div id="signin">
+
+      </div>
+      <div id="signup">
+
+      </div>
+    </div>
   )
 }
 

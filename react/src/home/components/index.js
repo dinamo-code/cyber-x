@@ -8,6 +8,7 @@ import Productscards from './Productscards';
 import Sales from './Sales';
 import Sponsored from './Sponsored';
 import State from './State';
+import Acountmanage from './Acountmanage';
 
 export {
     About,
@@ -20,4 +21,5 @@ export {
     Sales,
     Sponsored,
     State,
+    Acountmanage,
 }
