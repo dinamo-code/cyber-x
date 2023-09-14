@@ -4,7 +4,7 @@ const Head = () => {
   return (
     <div id="mainhead">
       <div id="logo">
-
+        <img src="" alt="" />
       </div>
       <div id="links">
 
