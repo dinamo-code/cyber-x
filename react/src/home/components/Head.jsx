@@ -1,26 +1,36 @@
-
+import cyberwhite from '../assets/cyberwhite.png'
 
 const Head = () => {
   return (
     <div id="mainhead">
-      <div id="logo">
-        <img src="" alt="" />
+
+      <div id="headlogo">
+        <img src={cyberwhite} alt="cyberwhite" id='cyberwhitelogo' className='w-[40px] h-[40px]' />
       </div>
-      <div id="links">
+      <div id="allheadlinks">
+      <div id="headlinks">
+        <table id='headlinkstable'>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Sales</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        </table>
+      </div>
+      <div id="headsearch">
 
       </div>
-      <div id="search">
+      <div id="headshopcart">
 
       </div>
-      <div id="shopcart">
+      <div id="headsignin">
 
       </div>
-      <div id="signin">
+      <div id="headsignup">
 
       </div>
-      <div id="signup">
-
-      </div>
+    </div>
     </div>
   )
 }
