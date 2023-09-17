@@ -17,7 +17,7 @@
     margin: 0;
     padding: 0;
     background-color: #000212;
-    color: aliceblue;
+    color: white;
 }
 * {
     -webkit-box-sizing: border-box;
@@ -35,7 +35,9 @@
     margin-bottom: 50px;
     margin-right: 10px;
     margin-left: 10px;
+    color: white;
 }
+                /* larg */
 @media(max-width : 1499px) and (min-width : 1024px){
 #headlogo {
     margin-left: 18px;
@@ -43,13 +45,22 @@
   #headlinks ul {
       display: flex;
       justify-content: end;
+      margin-top: -52px;
+      margin-left: 495px;
   }
 
   #headlinks li {
-      margin: 10px;
-
+      margin: 20px;
+      font-weight: 500;
+      font-size: larger;
+  }
+  #headlinks li :hover {
+     border-bottom-color: white;
+     border-bottom-width: 2px;
+     padding-bottom: 4px;
   }
 }
+                /* medium */
 @media(max-width : 1023px) and (min-width : 500px){
     #headlogo {
         margin-left: 10px;
@@ -61,14 +72,20 @@
     #headlinks ul {
         display: flex;
         justify-content: end;
-        margin-left: 50px;
+        margin-left: 130px;
+        margin-top: -40px;
     }
     #headlinks li {
-        margin: 10px;
-
+        margin: 12px;
+        font-weight: 500;
     }
-
+    #headlinks li :hover {
+       border-bottom-color: white;
+       border-bottom-width: 2px;
+       padding-bottom: 3px;
+    }
 }
+                /* small */
 @media(max-width :499px) and (min-width : 250px){
     #headogo {
         margin-left: 8px;
@@ -76,6 +93,9 @@
     #cyberwhitelogo {
         width: 32px;
         height: 32px;
+    }
+    #allheadlinks {
+        display: none;
     }
 }
 

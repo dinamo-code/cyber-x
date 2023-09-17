@@ -13,8 +13,10 @@ const Head = () => {
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Products</a></li>
+            <li><a href="">Trending</a></li>
             <li><a href="">Sales</a></li>
             <li><a href="">Contact</a></li>
+
         </ul>
         </table>
       </div>
