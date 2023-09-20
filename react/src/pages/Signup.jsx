@@ -1,5 +1,4 @@
 import cyberpurplelogo2 from './assets/cyberpurplelogo2.png'
-// import amperlashop from './assets/amperlashop.png'
 import verified2 from './assets/verified2.png'
 const Signup = () => {
   return (
@@ -37,12 +36,13 @@ const Signup = () => {
         <h3>Password</h3>
         <input type="password" placeholder='Enter your Password' id='passwordfieled' required/>
         </div>
-        <div id="signupsendbuttom">
-        <button id='submitbtnsignup'>Sign up</button>
         </div>
+         <div id="signupsendbuttom">
+        <input type="button" value="Sign up" id='submitbtnsignup' />
         </div>
+
         </div>
-        </div>
+    </div>
     </div>
 
   )

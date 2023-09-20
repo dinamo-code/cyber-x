@@ -38,6 +38,9 @@
     margin-left: 10px;
     color: white;
 }
+#submitbtnsignup {
+    cursor: pointer;
+}
                 /* larg */
 @media(max-width : 1499px) and (min-width : 1024px){
 #headlogo {
@@ -131,6 +134,10 @@
     justify-content: end;
 
 }
+#signuphead {
+    position: sticky;
+    top: 0px;
+}
 
 #signupheadlinks li {
     margin: 15px;
@@ -151,8 +158,8 @@
     height: 550px;
     width: 400px;
     position: absolute;
-    left: 130px;
-    top: 240px;
+    left: 500px;
+    top: 300px;
     border-radius: 20px;
     border-width: 0.5px;
     box-shadow: 20px 20px 60px #bebebe,
@@ -180,8 +187,8 @@
 
 #signupfields {
     position: relative;
-    left: 22px;
-    margin-top: 35px;
+    left: 35px;
+    margin-top: 50px;
     outline: none;
 }
 
@@ -194,13 +201,14 @@
 
 #signupfields input {
     height: 40px;
-    width: 270px;
+    width: 320px;
     border-radius: 8px;
     background-color: #ffffff;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: none;
     padding: 10px;
+    outline: none;
 }
 
 #signupfields:focus {
@@ -214,7 +222,7 @@
     color: white;
     border-radius: 8px;
     position: relative;
-    right: -195px;
+    right: -280px;
     margin-top: 8px;
 }
 }
@@ -250,7 +258,7 @@
 }
 #signupcard {
     background-color: #f7f9fa;
-    height: 550px;
+    height: 555px;
     width: 400px;
     position: absolute;
     left: 130px;
@@ -282,27 +290,30 @@
 
 #signupfields {
     position: relative;
-    left: 22px;
-    margin-top: 35px;
+    left: 50px;
+    margin-top: 60px;
     outline: none;
 }
 
-#signupfields h3 {}
+#signupfields h3 {
+    font-weight: 400;
+}
 
 #signupfields div {
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
 }
 
 #signupfields input {
     height: 40px;
-    width: 270px;
+    width: 300px;
     border-radius: 8px;
     background-color: #ffffff;
-    margin-top: 8px;
+    margin-top: 10px;
     margin-bottom: 8px;
     border: none;
     padding: 10px;
+    outline: none;
 }
 
 #signupfields:focus {
@@ -316,8 +327,8 @@
     color: white;
     border-radius: 8px;
     position: relative;
-    right: -195px;
-    margin-top: 8px;
+    right: -275px;
+    margin-top: 10px;
 }
 }
 
@@ -404,6 +415,7 @@ margin-bottom: 15px;
     margin-bottom: 8px;
     border: none;
     padding: 10px;
+    outline: none;
 }
 #signupfields:focus {
     background: #000;
@@ -415,7 +427,7 @@ margin-bottom: 15px;
     color: white;
     border-radius: 8px;
     position: relative;
-    right: -195px;
+    right: -220px;
     margin-top: 8px;
 }
 }
