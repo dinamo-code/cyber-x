@@ -1,4 +1,5 @@
-purplelight [rgb(108, 122, 242)]
+purplelight [rgb(108, 122, 242)]&[#6c7af2]
 white [rgb(255, 255, 255)]
 gray[rgb(167, 170, 180)]
 offwhite [rgb(220, 220, 220)]
+purple [rgb(107, 121, 240)]&[#6b79f0]

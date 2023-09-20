@@ -24,6 +24,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     scroll-behavior: smooth;
+
 }
 .main {
     height: 815px;
@@ -98,4 +99,323 @@
         display: none;
     }
 }
+            /* signup */
+#signupcontainer {
+    height: 920px;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+}
+#mainsignup {
+    height: 850px;
+    background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(120, 119, 198, 0.3), hsla(0, 0%, 100%, 0));
+}
+#signuphead{
+    padding-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* larg */
+@media(max-width : 1499px) and (min-width : 1024px) {
+#logosignupcontainer {
+    margin-left: 18px;
+}
+#signupheadlinks ul {
+    display: flex;
+    justify-items: end;
+}
 
+#signupheadlinks {
+    display: flex;
+    justify-content: end;
+
+}
+
+#signupheadlinks li {
+    margin: 15px;
+    margin-right: 40px;
+    margin-top: -20px;
+    font-weight: 500;
+
+}
+
+#loginheadbutton {
+    padding: 10px;
+    background-color: #6b79f0;
+    color: white;
+    border-radius: 8px;
+}
+#signupcard {
+    background-color: #f7f9fa;
+    height: 550px;
+    width: 400px;
+    position: absolute;
+    left: 130px;
+    top: 240px;
+    border-radius: 20px;
+    border-width: 0.5px;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+    padding-bottom: 150px;
+}
+#verifiedssignupcard {
+    position: relative;
+    left: 43%;
+    margin-top: 15px;
+}
+
+#createacounttitle {
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    /* color: #6b79f0; */
+    font-weight: 600;
+}
+
+#createacounttitle span {
+    color: #6b79f0;
+    font-weight: 700;
+}
+
+#signupfields {
+    position: relative;
+    left: 22px;
+    margin-top: 35px;
+    outline: none;
+}
+
+#signupfields h3 {}
+
+#signupfields div {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#signupfields input {
+    height: 40px;
+    width: 270px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: none;
+    padding: 10px;
+}
+
+#signupfields:focus {
+    background: #000;
+    transform: scale(1.1);
+}
+
+#submitbtnsignup {
+    padding: 10px;
+    background-color: #6b79f0;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+    right: -195px;
+    margin-top: 8px;
+}
+}
+
+/* medium */
+@media(max-width : 1023px) and (min-width : 500px) {
+#logosignupcontainer {
+    width: 35px;
+    height: 32px;
+    margin-left: 12px;
+}
+#signupheadlinks ul {
+    display: flex;
+    justify-items: end;
+}
+#signupheadlinks  {
+    display: flex;
+    justify-content: end;
+
+}
+#signupheadlinks li{
+    margin: 15px;
+    margin-right:40px;
+    margin-top: -20px;
+    font-weight: 500;
+
+}
+#loginheadbutton {
+    padding: 10px;
+    background-color: #6b79f0;
+    color: white;
+    border-radius: 8px;
+}
+#signupcard {
+    background-color: #f7f9fa;
+    height: 550px;
+    width: 400px;
+    position: absolute;
+    left: 130px;
+    top: 240px;
+    border-radius: 20px;
+    border-width: 0.5px;
+    box-shadow: 20px 20px 60px #bebebe,
+            -20px -20px 60px #ffffff;
+    padding-bottom: 150px;
+}
+#verifiedssignupcard {
+    position: relative;
+    left: 43%;
+    margin-top: 15px;
+}
+
+#createacounttitle {
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    /* color: #6b79f0; */
+    font-weight: 600;
+}
+
+#createacounttitle span {
+    color: #6b79f0;
+    font-weight: 700;
+}
+
+#signupfields {
+    position: relative;
+    left: 22px;
+    margin-top: 35px;
+    outline: none;
+}
+
+#signupfields h3 {}
+
+#signupfields div {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#signupfields input {
+    height: 40px;
+    width: 270px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: none;
+    padding: 10px;
+}
+
+#signupfields:focus {
+    background: #000;
+    transform: scale(1.1);
+}
+
+#submitbtnsignup {
+    padding: 10px;
+    background-color: #6b79f0;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+    right: -195px;
+    margin-top: 8px;
+}
+}
+
+/* small */
+@media(max-width :499px) and (min-width : 250px) {
+#logosignupcontainer {
+    width: 32px;
+    height: 27px;
+    margin-left: 10px;
+}
+#signupheadlinks ul {
+    display: flex;
+    justify-items: end;
+}
+
+#signupheadlinks {
+    display: flex;
+    justify-content: end;
+
+}
+
+#signupheadlinks li {
+    margin: 15px;
+    margin-right: 20px;
+    margin-top: -20px;
+    font-weight: 500;
+
+}
+
+#loginheadbutton {
+    padding: 10px;
+    background-color: #6b79f0;
+    color: white;
+    border-radius: 8px;
+}
+#signupcard {
+    background-color: #f7f9fa;
+    height: 510px;
+    width: 320px;
+    position: absolute;
+    left: 38px;
+    top: 290px;
+    border-radius: 20px;
+    border-width: 0.5px;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+    padding-bottom: 150px;
+}
+#verifiedssignupcard {
+    position: relative;
+    left: 43%;
+    margin-top: 15px;
+}
+#createacounttitle {
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    /* color: #6b79f0; */
+    font-weight: 600;
+}
+#createacounttitle span {
+    color: #6b79f0;
+    font-weight: 700;
+}
+#signupfields {
+position: relative;
+left: 22px;
+margin-top: 35px;
+outline: none;
+}
+#signupfields h3 {
+
+}
+#signupfields div {
+margin-top: 15px;
+margin-bottom: 15px;
+}
+#signupfields input {
+    height: 40px;
+    width: 270px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: none;
+    padding: 10px;
+}
+#signupfields:focus {
+    background: #000;
+    transform: scale(1.1);
+}
+#submitbtnsignup {
+    padding: 10px;
+    background-color: #6b79f0;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+    right: -195px;
+    margin-top: 8px;
+}
+}
