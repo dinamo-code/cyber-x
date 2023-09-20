@@ -15,14 +15,13 @@ const Signup = () => {
                 </ul>
             </table>
         </div>
-        <div id="signupimgcontainer">
-            {/* <img src={amperlashop} alt="amperlashop" id='amperlashopimg' className='150px'/> */}
-        </div>
+
         <div id="signupcard">
             <div id="signupcardverifiedimg">
             <img src={verified2} alt="verified" id='verifiedssignupcard' className='w-[45px] h-[45px]' />
             <h2 id='createacounttitle'>Create Account <span>+</span></h2>
         </div>
+        <form action="sinupController.php" method="post">
         <div id="signupfields">
         <div id="signupname">
         <h3>Name</h3>
@@ -38,9 +37,9 @@ const Signup = () => {
         </div>
         </div>
          <div id="signupsendbuttom">
-        <input type="button" value="Sign up" id='submitbtnsignup' />
+        <input type="submit" value="Sign up" id='submitbtnsignup' />
         </div>
-
+        </form>
         </div>
     </div>
     </div>

@@ -20,6 +20,7 @@ function Login() {
             <img src={verified2} alt="verified" id='verifiedssignupcard' className='w-[45px] h-[45px]' />
             <h2 id='createacounttitle'>Login Account <span>+</span></h2>
         </div>
+        <form action="sinupController.php" method="post">
         <div id="signupfields">
         <div id="signupname">
         <h3>Name</h3>
@@ -35,9 +36,9 @@ function Login() {
         </div>
         </div>
          <div id="loginsendbuttom">
-        <input type="button" value="Login" id='submitbtnlogin' />
+        <input type="submit" value="Login" id='submitbtnlogin' />
         </div>
-
+        </form>
         </div>
     </div>
     </div>
