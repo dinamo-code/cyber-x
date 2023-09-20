@@ -225,6 +225,15 @@
     right: -280px;
     margin-top: 8px;
 }
+#submitbtnlogin {
+    padding: 10px;
+    background-color: #6b79f0;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+    right: -293px;
+    margin-top: 8px;
+}
 }
 
 /* medium */
@@ -330,6 +339,15 @@
     right: -275px;
     margin-top: 10px;
 }
+#submitbtnlogin {
+    padding: 10px;
+    background-color: #6b79f0;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+    right: -288px;
+    margin-top: 10px;
+}
 }
 
 /* small */
@@ -428,6 +446,15 @@ margin-bottom: 15px;
     border-radius: 8px;
     position: relative;
     right: -220px;
+    margin-top: 8px;
+}
+#submitbtnlogin {
+    padding: 10px;
+    background-color: #6b79f0;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+    right: -230px;
     margin-top: 8px;
 }
 }
