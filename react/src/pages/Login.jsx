@@ -20,23 +20,23 @@ function Login() {
             <img src={verified2} alt="verified" id='verifiedssignupcard' className='w-[45px] h-[45px]' />
             <h2 id='createacounttitle'>Login Account <span>+</span></h2>
         </div>
-        <form action="sinupController.php" method="post">
+        <form action="" method="post">
         <div id="signupfields">
         <div id="signupname">
         <h3>Name</h3>
-        <input type="text" placeholder='Enter your name' id='namefieled' required/>
+        <input type="text" placeholder='Enter your name' id='namefieled' required name='name'/>
         </div>
         <div id="signupemail">
         <h3>Email</h3>
-        <input type="email" placeholder='Enter your Email' id='emailfieled' required/>
+        <input type="email" placeholder='Enter your Email' id='emailfieled' required name='email'/>
         </div>
         <div id="signuppassword">
         <h3>Password</h3>
-        <input type="password" placeholder='Enter your Password' id='passwordfieled' required/>
+        <input type="password" placeholder='Enter your Password' id='passwordfieled' required name='password'/>
         </div>
         </div>
          <div id="loginsendbuttom">
-        <input type="submit" value="Login" id='submitbtnlogin' />
+        <input type="submit" value="Log in" id='submitbtnlogin' />
         </div>
         </form>
         </div>

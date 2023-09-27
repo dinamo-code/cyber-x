@@ -9,6 +9,7 @@ import Sales from './Sales';
 import Sponsored from './Sponsored';
 import State from './State';
 import Acountmanage from './Acountmanage';
+import Searchbar from './Searchbar';
 
 export {
     About,
@@ -22,4 +23,5 @@ export {
     Sponsored,
     State,
     Acountmanage,
+    Searchbar,
 }

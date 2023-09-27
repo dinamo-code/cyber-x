@@ -1,11 +1,12 @@
 
-import { About,Contact,Footer,Head,Acountmanage,Hero,Products,Productscards,Sales,Sponsored,State } from "./components" ;
+import { About,Searchbar,Contact,Footer,Head,Acountmanage,Hero,Products,Productscards,Sales,Sponsored,State } from "./components" ;
 function App() {
   return (
     <>
     <div className="main">
     <div className="head">
         <Head />
+        <Searchbar />
     </div>
     <div className="rest">
         <div>
